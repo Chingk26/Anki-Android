@@ -1,0 +1,19 @@
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: FATAL EXCEPTION: main
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: Process: com.ichi2.anki.debug, PID: 3348
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: android.view.WindowManager$BadTokenException: Unable to add window -- token android.os.BinderProxy@8edce0a is not valid; is your activity running?
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1312)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:405)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:148)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at android.app.Dialog.show(Dialog.java:352)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at androidx.appcompat.app.AlertDialog$Builder.show(AlertDialog.java:1008)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at com.ichi2.anki.pages.PageChromeClient.onJsAlert(PageChromeClient.kt:63)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at mb.run(chromium-SystemWebView.apk-default-495156103:629)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:942)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-09 12:56:49.460  3348  3348 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+12-09 12:56:49.460  3348  3348 D UsageAnalytics: sendAnalyticsException() description/fatal: android.view.WindowManager$BadTokenException: Unable to add window -- token android.os.BinderProxy@8edce0a is not valid; is your activity running?/true
